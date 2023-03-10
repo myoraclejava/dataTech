@@ -41,7 +41,6 @@ import org.apache.flink.table.api.bridge.java.StreamTableEnvironment;
 public class EtlF_ord {
 
 	public static void main(String[] args) throws Exception {
-
 		// set up the streaming execution environment
 		final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 		env.enableCheckpointing(5000, CheckpointingMode.EXACTLY_ONCE);
