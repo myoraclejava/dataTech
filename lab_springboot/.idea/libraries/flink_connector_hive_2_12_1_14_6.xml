@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="flink-connector-hive_2.12-1.14.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/flink-connector-hive_2.12-1.14.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
