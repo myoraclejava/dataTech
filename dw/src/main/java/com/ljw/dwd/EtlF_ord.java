@@ -52,7 +52,7 @@ public class EtlF_ord {
 		env.getCheckpointConfig().setCheckpointStorage("file:///D:/tmp");
 		StreamTableEnvironment tabEnv = StreamTableEnvironment.create(env);
 		tabEnv.getConfig().getConfiguration().setString(PipelineOptions.NAME,"sql job");
-
+		
 		String createCdcOrder = "CREATE TABLE cdcOrder(" +
 				"\norder_id int," +
 				"\norder_no varchar," +
